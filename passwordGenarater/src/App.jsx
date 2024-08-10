@@ -1,4 +1,5 @@
 import { useState,useCallback,useEffect,useRef} from 'react'
+import { WavyBackground } from "../src/components/ui/wavy-background";
 
 function App() {
   const [length, setlength] = useState(8)
@@ -36,11 +37,12 @@ useEffect(() => {
 
   return (
     <>
+     <WavyBackground className="max-w-4xl mx-auto pb-40">
     <div className='w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-yellow-200 bg-gray-700'>
     <h1 className='text-4xl text-center py-4'>password genarater</h1>
-    <div className='flex shadow rounded-lg overflow-hidden md-4 py-4'>
+    <div className='flex shadow w-[25rem] rounded-lg overflow-hidden md-4 py-4'>
       <input 
-      className='outline-none px-3 py-1 w-full rounded-xl text-orange-600'
+      className='outline-none px-3 py-1 w-full border border-r-0 rounded-xl text-orange-600'
       type="text" 
       value={password} 
       placeholder='password'
@@ -48,7 +50,7 @@ useEffect(() => {
       ref={passwordRef}/>
       <button
       onClick={copyPasswordtoClipboard}
-      className='outline-none bg-blue-400 text-white px-3 py-0.5 rounded-lg shrink-0'>
+      className='outline-none bg-blue-400 text-white border border-l-0 px-3 py-0.5 rounded-lg shrink-0'>
         copy
       </button>
     </div>
@@ -81,6 +83,7 @@ useEffect(() => {
       </div>
     </div>
     </div>
+    </WavyBackground>
     </>
   )
 }

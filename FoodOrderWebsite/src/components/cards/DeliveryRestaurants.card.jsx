@@ -10,7 +10,7 @@ const restaurants = [
     offer: '30% OFF',
     cuisine: 'South Indian',
     safetyInfo: '9000+ orders placed from here recently',
-    to : "/UserProfile",
+    to : "/HotelOrder",
 
   },
   {
@@ -91,7 +91,7 @@ const restaurants = [
     offer: '30% OFF',
     cuisine: 'South Indian',
     safetyInfo: '9000+ orders placed from here recently',
-    to : "/UserProfile",
+    to : "/HotelOrder",
 
   },
 ];

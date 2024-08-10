@@ -15,20 +15,21 @@ const QRGenerator = () => {
   };
 
   return (
-    <div className="p-4">
+    <div className="  p-4">
       <h2 className="text-2xl font-bold mb-4">QR Code Generator</h2>
       <div className="mb-4">
         <label className="block text-lg font-bold mb-2" htmlFor="description">
           Description:
         </label>
-        <input
-          type="text"
-          id="description"
-          value={description}
-          onChange={(e) => setDescription(e.target.value)}
-          className="w-full p-2 border border-gray-300 rounded"
-          placeholder="Enter a description"
-        />
+        <textarea
+        type="text"
+        id="description"
+        value={description}
+        onChange={(e) => setDescription(e.target.value)}
+        className="w-full p-2 border border-gray-300 rounded"
+        placeholder="Enter a description"
+        rows={3}
+        ></textarea>
       </div>
       <div className="flex space-x-4">
         <button
@@ -44,12 +45,13 @@ const QRGenerator = () => {
           Clear
         </button>
       </div>
+      <div className='h-[20rem] w-[20rem] p-2'>
       {qrValue && (
         <div className="mt-4">
-          <QRCode value={qrValue} size={256} />
-          <p className="mt-2 text-lg">QR Code for: {qrValue}</p>
+          <QRCode className='p-2 m-2' value={qrValue} size={256} />
         </div>
       )}
+      </div>
     </div>
   );
 };

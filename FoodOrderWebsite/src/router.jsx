@@ -19,6 +19,11 @@ import OrderHistory from "./components/UserPrifileComponends/outletComponents/Or
 import MyAddress from "./components/UserPrifileComponends/outletComponents/MyAddress.jsx";
 import FavoriteOrders from "./components/UserPrifileComponends/outletComponents/RecentView.jsx";
 
+import Menu from "./components/HotelOrderComponents/OutletComponents/MenuComponent.jsx";
+import Photos from "./components/HotelOrderComponents/OutletComponents/PhotoComponent.jsx";
+import Orderonline from "./components/HotelOrderComponents/OutletComponents/AboutThisPlace.jsx";
+import Review from "./components/HotelOrderComponents/OutletComponents/ReviewCom/Review.component.jsx";
+
 const AppRouter = () => {
   return (
     <Router>
@@ -26,13 +31,13 @@ const AppRouter = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/add-restaurant" element={<AddResturent />} />
 
-        <Route path="/HotelOrder" element={<HotelOrder />} />
-          {/* <Route path="order-online" element={<Order-online />} />
-          <Route path="overview" element={<Overview />} />
-          <Route path="reviews" element={<Reviews />} />
+        <Route path="/HotelOrder" element={<HotelOrder />} >
+           <Route path="order-online" element={<Orderonline />} />
+         {/* <Route path="overview" element={<Overview />} />*/}
+          <Route path="reviews" element={<Review />} />
           <Route path="photos" element={<Photos />} />
           <Route path="menu" element={<Menu />} />
-        </Route> */}
+        </Route> 
 
         <Route path="/UserProfile" element={<UserProfile />} > 
           <Route path="Reviews" element={<Reviews />} />
