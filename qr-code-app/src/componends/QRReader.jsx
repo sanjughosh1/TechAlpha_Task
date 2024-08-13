@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import QrScanner from 'react-qr-scanner';
 import { useDropzone } from 'react-dropzone';
+import jsQR from 'jsqr';
 
 const QRReader = () => {
   const [result, setResult] = useState('No result');
@@ -11,7 +12,12 @@ const QRReader = () => {
 
   const handleScan = (data) => {
     if (data) {
-      setResult(data.text);
+      const rawText = data.text || data.binaryData || data.imageData;
+      if (rawText) {
+        setResult(rawText); // Set the scanned result from any data type
+      } else {
+        setResult("Unrecognized data format");
+      }
       setScanning(false);
     }
   };
@@ -29,7 +35,7 @@ const QRReader = () => {
 
   const toggleScanning = () => {
     if (cameraOn) {
-      setScannerKey(Date.now());  // Refresh the scanner
+      setScannerKey(Date.now()); // Refresh the scanner
       setScanning(!scanning);
     } else {
       alert('Please open the camera first');
@@ -40,11 +46,43 @@ const QRReader = () => {
     if (acceptedFiles && acceptedFiles.length > 0) {
       const file = acceptedFiles[0];
       const reader = new FileReader();
-      reader.onload = () => {
-        setResult(reader.result);
+      
+      reader.onload = (e) => {
+        const resultData = e.target.result;
+        if (file.type.startsWith('image/')) {
+          decodeQRCodeFromImage(resultData);
+        } else {
+          setResult(resultData);
+        }
       };
-      reader.readAsDataURL(file);
+
+      if (file.type.startsWith('image/')) {
+        reader.readAsDataURL(file); // Read as Data URL for images
+      } else {
+        reader.readAsText(file); // Read as text for plain text files
+      }
     }
+  };
+
+  const decodeQRCodeFromImage = (dataURL) => {
+    const image = new Image();
+    image.src = dataURL;
+    image.onload = () => {
+      const canvas = document.createElement('canvas');
+      const context = canvas.getContext('2d');
+      if (context) {
+        canvas.width = image.width;
+        canvas.height = image.height;
+        context.drawImage(image, 0, 0, image.width, image.height);
+        const imageData = context.getImageData(0, 0, canvas.width, canvas.height);
+        const code = jsQR(imageData.data, canvas.width, canvas.height);
+        if (code) {
+          setResult(code.data);
+        } else {
+          setResult('No QR code found in image');
+        }
+      }
+    };
   };
 
   const handleClear = () => {
@@ -84,7 +122,7 @@ const QRReader = () => {
         </div>
       </div>
       <div className="mt-3">
-        <h3 className="text-xl font-bold mb-1">Or Upload Image:</h3>
+        <h3 className="text-xl font-bold mb-1">Or Upload QR Code File:</h3>
         <div
           {...getRootProps({
             className:
@@ -92,28 +130,25 @@ const QRReader = () => {
           })}
         >
           <input {...getInputProps()} />
-          <p>Drag & drop an image here, or click to select one</p>
+          <p>Drag & drop a QR code file here, or click to select one</p>
         </div>
       </div>
       <div className="mt-3">
         <label className="block text-lg font-bold mb-2" htmlFor="scannedResult">Scanned Result:</label>
         <textarea 
-          type="text"
           id="scannedResult"
-          value={result}
+          value={result} // Display the scanned text
           onChange={(e) => setResult(e.target.value)}
           className="w-full p-2 border border-gray-300 rounded">
-          </textarea>
-       
+        </textarea>
       </div>
       <div className='flex justify-center'>
-      <button
+        <button
           onClick={handleClear}
           className="flex p-3 m-2 bg-red-500 text-white rounded"> 
           Clear
-      </button>
+        </button>
       </div>
-
     </div>
   );
 };
