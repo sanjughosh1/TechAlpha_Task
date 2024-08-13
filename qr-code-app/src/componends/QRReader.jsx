@@ -94,6 +94,7 @@ const QRReader = () => {
   return (
     <div className="p-4">
       <div className='flex flex-col flex-wrap'>
+      <h2 className="text-2xl font-bold mb-4">QR Code Scanner</h2>
       <div className="relative flex h-[15rem] w-[15rem]">
         {cameraOn && (
           <QrScanner
