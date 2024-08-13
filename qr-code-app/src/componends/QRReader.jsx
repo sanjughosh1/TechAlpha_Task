@@ -14,7 +14,7 @@ const QRReader = () => {
     if (data) {
       const rawText = data.text || data.binaryData || data.imageData;
       if (rawText) {
-        setResult(rawText); // Set the scanned result from any data type
+        setResult(rawText); // Set the scanned result
       } else {
         setResult("Unrecognized data format");
       }
@@ -93,8 +93,8 @@ const QRReader = () => {
 
   return (
     <div className="p-4">
-      <h2 className="text-2xl font-bold mb-4">QR Code Reader</h2>
-      <div className="relative flex h-[10rem] w-[10rem]">
+      <div className='flex flex-col flex-wrap'>
+      <div className="relative flex h-[15rem] w-[15rem]">
         {cameraOn && (
           <QrScanner
             key={scannerKey}
@@ -108,46 +108,55 @@ const QRReader = () => {
         <div className="flex flex-col space-x-4 m-4">
           <button
             onClick={toggleCamera}
-            className="px-2 py-2 w-[6rem] mx-4 bg-green-500 text-white rounded"
+            className="px-2 py-3 m-4 w-[6rem] mx-4 bg-green-500 text-white rounded"
           >
             {cameraOn ? 'Close Camera' : 'Open Camera'}
           </button>
           <button
             onClick={toggleScanning}
-            className={`px-2 py-2 w-[6rem] text-white rounded ${cameraOn ? 'bg-blue-500' : 'bg-gray-500 cursor-not-allowed'}`}
+            className={`px-2 py-3 m-4 w-[6rem] text-white rounded ${cameraOn ? 'bg-blue-500' : 'bg-gray-500 cursor-not-allowed'}`}
             disabled={!cameraOn}
           >
             {scanning ? 'Stop Scanning' : 'Start Scanning'}
           </button>
         </div>
       </div>
-      <div className="mt-3">
-        <h3 className="text-xl font-bold mb-1">Or Upload QR Code File:</h3>
-        <div
-          {...getRootProps({
-            className:
-              'border-dashed border-2 bg-white border-gray-300 p-2 rounded cursor-pointer',
-          })}
-        >
-          <input {...getInputProps()} />
-          <p>Drag & drop a QR code file here, or click to select one</p>
-        </div>
       </div>
-      <div className="mt-3">
-        <label className="block text-lg font-bold mb-2" htmlFor="scannedResult">Scanned Result:</label>
-        <textarea 
-          id="scannedResult"
-          value={result} // Display the scanned text
-          onChange={(e) => setResult(e.target.value)}
-          className="w-full p-2 border border-gray-300 rounded">
-        </textarea>
-      </div>
-      <div className='flex justify-center'>
-        <button
-          onClick={handleClear}
-          className="flex p-3 m-2 bg-red-500 text-white rounded"> 
-          Clear
-        </button>
+      <div className='h-[20rem]'>
+        <div className="mt-3 w-full flex justify-center items-start">
+              <div className="mt-3 w[10rem]">
+                <h3 className="text-xl font-bold mb-1">Or Upload QR Code File:</h3>
+                <div
+                  {...getRootProps({
+                    className:
+                      'border-dashed border-2 bg-white border-gray-300 p-2 rounded cursor-pointer',
+                  })}
+                  >
+                  <input {...getInputProps()} />
+                  <p>Drag & drop a QR code file here, or click to select one</p>
+                </div>
+              </div>
+
+              <div className='w-[30rem] m-2'>
+              <label className="block text-lg font-bold mb-2" htmlFor="scannedResult">Scanned Result:</label>
+              <textarea 
+                id="scannedResult"
+                rows={7}
+                value={result} // Display the scanned text
+                onChange={(e) => setResult(e.target.value)}
+                className="w-full p-2 border border-gray-300 rounded">
+              </textarea>
+              <div className='flex justify-center'>
+                <button
+                  onClick={handleClear}
+                  className="flex p-3 m-2 bg-red-500 text-white rounded"> 
+                  Clear
+                </button>
+              </div>
+              </div>
+
+              
+        </div>   
       </div>
     </div>
   );
