@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,11 +11,16 @@ const Navbar = () => {
   return (
     <nav className="bg-blue-500 p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <a href="/" className="text-white text-2xl font-bold">MyApp</a>
+        <Link to={"/"} className="text-white text-2xl font-bold">Timer And StopWatch</Link>
         <div className="hidden md:flex space-x-4">
-          <a href="/" className="text-white hover:text-gray-200">Home</a>
-          <a href="/about" className="text-white hover:text-gray-200">About</a>
-          <a href="/contact" className="text-white hover:text-gray-200">Contact</a>
+          <Link
+          to={"timer"}
+          className="text-white hover:text-gray-200"
+          >Timer</Link>
+          <Link
+          to={"/"}
+          className="text-white hover:text-gray-200"
+          >StopWatch</Link>
         </div>
         <button 
           className="text-white md:hidden" 

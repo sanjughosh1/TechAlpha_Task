@@ -1,23 +1,25 @@
 import { useState } from 'react'
-import Navbar from "./componends/navbar.jsx";
-import Stopwatch from "./componends/Stopwatch.jsx"
-import Footer from "./componends/footer.jsx"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Stopwatch from "./componends/Stopwatch.jsx";
+import Layout from './componends/layout/layput.jsx';
+import Timer from './componends/Timer.jsx';
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
    
   <>
-   <div className='h-full w-full bg-purple-400'>
-    <Navbar/>
-    <div>
-    <Stopwatch/>
-    </div>
-    <Footer/>
-   </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index path="timer" element={<Timer />} />
+          <Route path="" element={<Stopwatch />} />
+        </Route>
+      </Routes>
+    </Router>
   </>
 
   )
