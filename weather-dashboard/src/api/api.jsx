@@ -1,4 +1,3 @@
-// src/api.js
 import axios from 'axios';
 
 // https://api.openweathermap.org/data/2.5/forecast?q=kolkata&appid=0de865ee17c4ae6e5956ba3877128606

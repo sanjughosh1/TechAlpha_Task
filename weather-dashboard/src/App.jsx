@@ -6,7 +6,6 @@ const App = () => {
   const [location, setLocation] = useState('');
   const [suggestions, setSuggestions] = useState([]);
   const [weatherData, setWeatherData] = useState(null);
-  const [currentForecastIndex, setCurrentForecastIndex] = useState(0);
 
   useEffect(() => {
     if (weatherData) {
