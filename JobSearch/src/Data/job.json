@@ -1,0 +1,402 @@
+ [
+  {
+    "id": 1,
+    "title": "Software Engineer",
+    "company": "Tech Innovators",
+    "location": "San Francisco, CA",
+    "experience": "2-4 years",
+    "description": "Develop and maintain software applications."
+  },
+  {
+    "id": 2,
+    "title": "Marketing Manager",
+    "company": "Creative Solutions",
+    "location": "New York, NY",
+    "experience": "5-7 years",
+    "description": "Lead marketing campaigns and strategies."
+  },
+  {
+    "id": 3,
+    "title": "Data Analyst",
+    "company": "Data Insights",
+    "location": "Chicago, IL",
+    "experience": "1-3 years",
+    "description": "Analyze data and generate insights."
+  },
+  {
+    "id": 4,
+    "title": "Product Manager",
+    "company": "Tech Innovators",
+    "location": "San Francisco, CA",
+    "experience": "3-5 years",
+    "description": "Oversee product development and strategy."
+  },
+  {
+    "id": 5,
+    "title": "UX/UI Designer",
+    "company": "Design Hub",
+    "location": "Austin, TX",
+    "experience": "2-4 years",
+    "description": "Design user interfaces and experiences."
+  },
+  {
+    "id": 6,
+    "title": "Sales Executive",
+    "company": "Sales Corp",
+    "location": "Los Angeles, CA",
+    "experience": "4-6 years",
+    "description": "Drive sales and manage client relationships."
+  },
+  {
+    "id": 7,
+    "title": "Network Engineer",
+    "company": "IT Solutions",
+    "location": "Seattle, WA",
+    "experience": "3-5 years",
+    "description": "Manage and maintain network infrastructure."
+  },
+  {
+    "id": 8,
+    "title": "Human Resources Manager",
+    "company": "People First",
+    "location": "Denver, CO",
+    "experience": "5-7 years",
+    "description": "Oversee HR functions and employee relations."
+  },
+  {
+    "id": 9,
+    "title": "Content Writer",
+    "company": "Creative Solutions",
+    "location": "New York, NY",
+    "experience": "1-3 years",
+    "description": "Create engaging content for various platforms."
+  },
+  {
+    "id": 10,
+    "title": "DevOps Engineer",
+    "company": "Tech Innovators",
+    "location": "San Francisco, CA",
+    "experience": "3-5 years",
+    "description": "Automate and manage infrastructure processes."
+  },
+  {
+    "id": 11,
+    "title": "Accountant",
+    "company": "Finance Experts",
+    "location": "Miami, FL",
+    "experience": "2-4 years",
+    "description": "Manage financial records and transactions."
+  },
+  {
+    "id": 12,
+    "title": "Customer Support Specialist",
+    "company": "Service First",
+    "location": "Phoenix, AZ",
+    "experience": "1-3 years",
+    "description": "Provide support and assistance to customers."
+  },
+  {
+    "id": 13,
+    "title": "Graphic Designer",
+    "company": "Design Hub",
+    "location": "Austin, TX",
+    "experience": "2-4 years",
+    "description": "Create visual designs and marketing materials."
+  },
+  {
+    "id": 14,
+    "title": "Business Analyst",
+    "company": "Data Insights",
+    "location": "Chicago, IL",
+    "experience": "3-5 years",
+    "description": "Analyze business processes and provide recommendations."
+  },
+  {
+    "id": 15,
+    "title": "Front-End Developer",
+    "company": "Tech Innovators",
+    "location": "San Francisco, CA",
+    "experience": "2-4 years",
+    "description": "Develop and maintain user-facing features."
+  },
+  {
+    "id": 16,
+    "title": "Operations Manager",
+    "company": "Logistics Co",
+    "location": "Dallas, TX",
+    "experience": "5-7 years",
+    "description": "Oversee daily operations and logistics."
+  },
+  {
+    "id": 17,
+    "title": "Mobile App Developer",
+    "company": "App Creators",
+    "location": "Boston, MA",
+    "experience": "3-5 years",
+    "description": "Develop mobile applications for iOS and Android."
+  },
+  {
+    "id": 18,
+    "title": "SEO Specialist",
+    "company": "Digital Marketing Inc.",
+    "location": "Los Angeles, CA",
+    "experience": "2-4 years",
+    "description": "Optimize websites for search engines."
+  },
+  {
+    "id": 19,
+    "title": "Project Manager",
+    "company": "BuildIt",
+    "location": "Atlanta, GA",
+    "experience": "5-7 years",
+    "description": "Manage projects from conception to completion."
+  },
+  {
+    "id": 20,
+    "title": "System Administrator",
+    "company": "IT Solutions",
+    "location": "Seattle, WA",
+    "experience": "3-5 years",
+    "description": "Maintain and support IT systems."
+  },
+  {
+    "id": 21,
+    "title": "Quality Assurance Engineer",
+    "company": "Tech Innovators",
+    "location": "San Francisco, CA",
+    "experience": "2-4 years",
+    "description": "Test and ensure the quality of software products."
+  },
+  {
+    "id": 22,
+    "title": "Recruitment Specialist",
+    "company": "People First",
+    "location": "Denver, CO",
+    "experience": "3-5 years",
+    "description": "Handle recruitment processes and candidate sourcing."
+  },
+  {
+    "id": 23,
+    "title": "Financial Analyst",
+    "company": "Finance Experts",
+    "location": "Miami, FL",
+    "experience": "2-4 years",
+    "description": "Analyze financial data and provide insights."
+  },
+  {
+    "id": 24,
+    "title": "Social Media Manager",
+    "company": "Creative Solutions",
+    "location": "New York, NY",
+    "experience": "2-4 years",
+    "description": "Manage social media platforms and strategies."
+  },
+  {
+    "id": 25,
+    "title": "Back-End Developer",
+    "company": "Tech Innovators",
+    "location": "San Francisco, CA",
+    "experience": "3-5 years",
+    "description": "Develop server-side logic and integrations."
+  },
+  {
+    "id": 26,
+    "title": "Legal Counsel",
+    "company": "Law Firm Associates",
+    "location": "Washington, DC",
+    "experience": "5-7 years",
+    "description": "Provide legal advice and representation."
+  },
+  {
+    "id": 27,
+    "title": "Cloud Engineer",
+    "company": "Tech Innovators",
+    "location": "San Francisco, CA",
+    "experience": "3-5 years",
+    "description": "Design and maintain cloud infrastructure."
+  },
+  {
+    "id": 28,
+    "title": "Content Marketing Manager",
+    "company": "Digital Marketing Inc.",
+    "location": "Los Angeles, CA",
+    "experience": "4-6 years",
+    "description": "Lead content marketing strategies and execution."
+  },
+  {
+    "id": 29,
+    "title": "Database Administrator",
+    "company": "Data Insights",
+    "location": "Chicago, IL",
+    "experience": "3-5 years",
+    "description": "Manage and optimize database systems."
+  },
+  {
+    "id": 30,
+    "title": "Supply Chain Manager",
+    "company": "Logistics Co",
+    "location": "Dallas, TX",
+    "experience": "5-7 years",
+    "description": "Oversee supply chain processes and logistics."
+  },
+  {
+    "id": 31,
+    "title": "Machine Learning Engineer",
+    "company": "AI Pioneers",
+    "location": "San Jose, CA",
+    "experience": "3-5 years",
+    "description": "Develop and implement machine learning models."
+  },
+  {
+    "id": 32,
+    "title": "Account Manager",
+    "company": "Sales Corp",
+    "location": "Los Angeles, CA",
+    "experience": "4-6 years",
+    "description": "Manage client accounts and relationships."
+  },
+  {
+    "id": 33,
+    "title": "Security Analyst",
+    "company": "CyberSecurity Inc.",
+    "location": "Houston, TX",
+    "experience": "3-5 years",
+    "description": "Monitor and protect IT systems from threats."
+  },
+  {
+    "id": 34,
+    "title": "Technical Writer",
+    "company": "Tech Innovators",
+    "location": "San Francisco, CA",
+    "experience": "2-4 years",
+    "description": "Create technical documentation and manuals."
+  },
+  {
+    "id": 35,
+    "title": "Product Designer",
+    "company": "Design Hub",
+    "location": "Austin, TX",
+    "experience": "3-5 years",
+    "description": "Design and prototype new products."
+  },
+  {
+    "id": 36,
+    "title": "Research Scientist",
+    "company": "Innovate Labs",
+    "location": "Cambridge, MA",
+    "experience": "4-6 years",
+    "description": "Conduct research and develop new technologies."
+  },
+  {
+    "id": 37,
+    "title": "E-commerce Manager",
+    "company": "Online Retailers",
+    "location": "New York, NY",
+    "experience": "3-5 years",
+    "description": "Manage online store operations and sales."
+  },
+  {
+    "id": 38,
+    "title": "Customer Success Manager",
+    "company": "Service First",
+    "location": "Phoenix, AZ",
+    "experience": "4-6 years",
+    "description": "Ensure customer satisfaction and retention."
+  },
+  {
+    "id": 39,
+    "title": "IT Support Specialist",
+    "company": "IT Solutions",
+    "location": "Seattle, WA",
+    "experience": "2-4 years",
+    "description": "Provide technical support to end-users."
+  },
+  {
+    "id": 40,
+    "title": "Digital Strategist",
+    "company": "Digital Marketing Inc.",
+    "location": "Los Angeles, CA",
+    "experience": "4-6 years",
+    "description": "Develop and execute digital marketing strategies."
+  },
+  {
+    "id": 41,
+    "title": "Event Planner",
+    "company": "Event Masters",
+    "location": "Orlando, FL",
+    "experience": "3-5 years",
+    "description": "Plan and coordinate events and conferences."
+  },
+  {
+    "id": 42,
+    "title": "Operations Analyst",
+    "company": "Logistics Co",
+    "location": "Dallas, TX",
+    "experience": "2-4 years",
+    "description": "Analyze operational data and optimize processes."
+  },
+  {
+    "id": 43,
+    "title": "Mobile UX Designer",
+    "company": "App Creators",
+    "location": "Boston, MA",
+    "experience": "2-4 years",
+    "description": "Design user interfaces for mobile applications."
+  },
+  {
+    "id": 44,
+    "title": "Technical Support Engineer",
+    "company": "Tech Innovators",
+    "location": "San Francisco, CA",
+    "experience": "3-5 years",
+    "description": "Provide technical support and troubleshooting."
+  },
+  {
+    "id": 45,
+    "title": "Legal Assistant",
+    "company": "Law Firm Associates",
+    "location": "Washington, DC",
+    "experience": "2-4 years",
+    "description": "Assist lawyers with legal research and documentation."
+  },
+  {
+    "id": 46,
+    "title": "Solutions Architect",
+    "company": "IT Solutions",
+    "location": "Seattle, WA",
+    "experience": "5-7 years",
+    "description": "Design and implement IT solutions for clients."
+  },
+  {
+    "id": 47,
+    "title": "Product Marketing Manager",
+    "company": "Creative Solutions",
+    "location": "New York, NY",
+    "experience": "4-6 years",
+    "description": "Lead product marketing efforts and campaigns."
+  },
+  {
+    "id": 48,
+    "title": "Logistics Coordinator",
+    "company": "Logistics Co",
+    "location": "Dallas, TX",
+    "experience": "2-4 years",
+    "description": "Coordinate and manage logistics operations."
+  },
+  {
+    "id": 49,
+    "title": "AI Research Engineer",
+    "company": "AI Pioneers",
+    "location": "San Jose, CA",
+    "experience": "3-5 years",
+    "description": "Conduct research and develop AI algorithms."
+  },
+  {
+    "id": 50,
+    "title": "Corporate Trainer",
+    "company": "Learning Hub",
+    "location": "Chicago, IL",
+    "experience": "4-6 years",
+    "description": "Develop and deliver training programs for employees."
+  }
+]
