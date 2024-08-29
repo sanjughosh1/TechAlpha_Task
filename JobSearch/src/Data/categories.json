@@ -1,63 +1,128 @@
 [
-    {
-      "imgSrc": "https://static.thenounproject.com/png/194055-200.png",
-      "alt": "Remote",
-      "title": "Remote",
-      "jobs": "65.1K+ Jobs"
-    },
-    {
-      "imgSrc": "https://static.thenounproject.com/png/194055-200.png",
-      "alt": "MNC",
-      "title": "MNC",
-      "jobs": "48.1K+ Jobs"
-    },
-    {
-      "imgSrc": "https://static.thenounproject.com/png/194055-200.png",
-      "alt": "HR",
-      "title": "HR",
-      "jobs": "41.1K+ Jobs"
-    },
-    {
-      "imgSrc": "https://static.thenounproject.com/png/194055-200.png",
-      "alt": "Marketing",
-      "title": "Marketing",
-      "jobs": "38.2K+ Jobs"
-    },
-    {
-      "imgSrc": "https://static.thenounproject.com/png/194055-200.png",
-      "alt": "HR",
-      "title": "HR",
-      "jobs": "41.1K+ Jobs"
-    },
-    {
-      "imgSrc": "https://static.thenounproject.com/png/194055-200.png",
-      "alt": "HR",
-      "title": "HR",
-      "jobs": "41.1K+ Jobs"
-    },
-    {
-      "imgSrc": "https://static.thenounproject.com/png/194055-200.png",
-      "alt": "HR",
-      "title": "HR",
-      "jobs": "41.1K+ Jobs"
-    },
-    {
-      "imgSrc": "https://static.thenounproject.com/png/194055-200.png",
-      "alt": "HR",
-      "title": "HR",
-      "jobs": "41.1K+ Jobs"
-    },
-    {
-      "imgSrc": "https://static.thenounproject.com/png/194055-200.png",
-      "alt": "HR",
-      "title": "HR",
-      "jobs": "41.1K+ Jobs"
-    },
-    {
-      "imgSrc": "https://static.thenounproject.com/png/194055-200.png",
-      "alt": "HR",
-      "title": "HR",
-      "jobs": "41.1K+ Jobs"
-    }
-  ]
-  
+  {
+    "imgSrc": "FaHome",
+    "alt": "Remote",
+    "title": "Remote",
+    "jobs": "65.1K+ Jobs"
+  },
+  {
+    "imgSrc": "FaBriefcase",
+    "alt": "Full-time",
+    "title": "Full-time",
+    "jobs": "120K+ Jobs"
+  },
+  {
+    "imgSrc": "FaClock",
+    "alt": "Part-time",
+    "title": "Part-time",
+    "jobs": "45.3K+ Jobs"
+  },
+  {
+    "imgSrc": "FaFileContract",
+    "alt": "Contract",
+    "title": "Contract",
+    "jobs": "30.2K+ Jobs"
+  },
+  {
+    "imgSrc": "FaUserTie",
+    "alt": "Freelance",
+    "title": "Freelance",
+    "jobs": "25.8K+ Jobs"
+  },
+  {
+    "imgSrc": "FaGraduationCap",
+    "alt": "Internship",
+    "title": "Internship",
+    "jobs": "15.4K+ Jobs"
+  },
+  {
+    "imgSrc": "FaUserGraduate",
+    "alt": "Entry Level",
+    "title": "Entry Level",
+    "jobs": "50.6K+ Jobs"
+  },
+  {
+    "imgSrc": "FaUserAlt",
+    "alt": "Mid Level",
+    "title": "Mid Level",
+    "jobs": "80.9K+ Jobs"
+  },
+  {
+    "imgSrc": "FaUserTie",
+    "alt": "Senior Level",
+    "title": "Senior Level",
+    "jobs": "40.7K+ Jobs"
+  },
+  {
+    "imgSrc": "FaLaptopCode",
+    "alt": "Tech",
+    "title": "Tech",
+    "jobs": "90.3K+ Jobs"
+  },
+  {
+    "imgSrc": "FaHeartbeat",
+    "alt": "Healthcare",
+    "title": "Healthcare",
+    "jobs": "65.2K+ Jobs"
+  },
+  {
+    "imgSrc": "FaPiggyBank",
+    "alt": "Finance",
+    "title": "Finance",
+    "jobs": "40.1K+ Jobs"
+  },
+  {
+    "imgSrc": "FaChalkboardTeacher",
+    "alt": "Education",
+    "title": "Education",
+    "jobs": "55.3K+ Jobs"
+  },
+  {
+    "imgSrc": "FaBullhorn",
+    "alt": "Marketing",
+    "title": "Marketing",
+    "jobs": "35.9K+ Jobs"
+  },
+  {
+    "imgSrc": "FaHandshake",
+    "alt": "Sales",
+    "title": "Sales",
+    "jobs": "50.2K+ Jobs"
+  },
+  {
+    "imgSrc": "FaHeadset",
+    "alt": "Customer Service",
+    "title": "Customer Service",
+    "jobs": "40.6K+ Jobs"
+  },
+  {
+    "imgSrc": "FaPeopleCarry",
+    "alt": "Human Resources",
+    "title": "Human Resources",
+    "jobs": "22.8K+ Jobs"
+  },
+  {
+    "imgSrc": "FaCogs",
+    "alt": "Engineering",
+    "title": "Engineering",
+    "jobs": "75.3K+ Jobs"
+  },
+  {
+    "imgSrc": "FaPaintBrush",
+    "alt": "Design",
+    "title": "Design",
+    "jobs": "30.5K+ Jobs"
+  },
+  {
+    "imgSrc": "FaBalanceScale",
+    "alt": "Legal",
+    "title": "Legal",
+    "jobs": "10.1K+ Jobs"
+  },
+  {
+    "imgSrc": "FaUserSecret",
+    "alt": "Consulting",
+    "title": "Consulting",
+    "jobs": "20.4K+ Jobs"
+  }
+]

@@ -1,10 +1,57 @@
 import React, { useState, useEffect, useRef } from "react";
+import { 
+  FaLongArrowAltLeft,
+  FaLongArrowAltRight,
+  FaHome, 
+  FaBriefcase, 
+  FaClock, 
+  FaFileContract, 
+  FaUserTie, 
+  FaGraduationCap, 
+  FaUserGraduate, 
+  FaUserAlt, 
+  FaLaptopCode, 
+  FaHeartbeat, 
+  FaPiggyBank, 
+  FaChalkboardTeacher, 
+  FaBullhorn, 
+  FaHandshake, 
+  FaHeadset, 
+  FaPeopleCarry, 
+  FaCogs, 
+  FaPaintBrush, 
+  FaBalanceScale, 
+  FaUserSecret
+ } from "react-icons/fa";
 import Navbar from "./Navbar";
 import jobData from "../../Data/job.json"; // Adjust the path if needed
 import categories from "../../Data/categories.json";
 
+
+const iconMap = {
+  FaHome: FaHome,
+  FaBriefcase: FaBriefcase,
+  FaClock: FaClock,
+  FaFileContract: FaFileContract,
+  FaUserTie: FaUserTie,
+  FaGraduationCap: FaGraduationCap,
+  FaUserGraduate: FaUserGraduate,
+  FaUserAlt: FaUserAlt,
+  FaLaptopCode: FaLaptopCode,
+  FaHeartbeat: FaHeartbeat,
+  FaPiggyBank: FaPiggyBank,
+  FaChalkboardTeacher: FaChalkboardTeacher,
+  FaBullhorn: FaBullhorn,
+  FaHandshake: FaHandshake,
+  FaHeadset: FaHeadset,
+  FaPeopleCarry: FaPeopleCarry,
+  FaCogs: FaCogs,
+  FaPaintBrush: FaPaintBrush,
+  FaBalanceScale: FaBalanceScale,
+  FaUserSecret: FaUserSecret,
+};
+
 const Header = () => {
-  const [jobs, setJobs] = useState(jobData); // Initial job data
   const [query, setQuery] = useState("");
   const [experience, setExperience] = useState("");
   const [location, setLocation] = useState("");
@@ -18,7 +65,7 @@ const Header = () => {
   const scroll = (direction) => {
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollBy({
-        left: direction === 'left' ? -400 : 400,
+        left: direction === 'left' ? -750 : 750,
         behavior: 'smooth'
       });
     }
@@ -166,39 +213,52 @@ const Header = () => {
         {/* Trending on Naukri Today Section */}
         <div className="py-8">
       <h2 className="text-xl font-semibold text-gray-800 text-center mb-6">Trending on Naukri today</h2>
-      <div className="relative flex bg-gray-300 shadow-xl justify-center items-center">
+      <div className="relative flex bg-blue-300 shadow-xl justify-center items-center">
         {/* Left Arrow */}
         <button
           onClick={() => scroll('left')}
           className="absolute left-0 top-1/2 m-2 transform -translate-y-1/2 bg-gray-200 rounded-full p-2 shadow-lg"
         >
-          &larr;
+          <FaLongArrowAltLeft/>
         </button>
 
         {/* Scrollable Container */}
         <div
-          ref={scrollContainerRef}
-          className="flex justify-center items-center m-10 space-x-4 w-5/6 overflow-x-hidden scrollbar-hidden"
-        >
-          {categories.map((category, index) => (
-            <div key={index} className="bg-white shadow-md rounded-xl p-4 text-center w-40 flex-shrink-0">
-              <img
-                src={category.imgSrc}
-                alt={category.alt}
-                className="mx-auto h-12 mb-2"
-              />
-              <p className="text-gray-700 font-semibold">{category.title}</p>
-              <p className="text-gray-500 text-sm">{category.jobs}</p>
-            </div>
-          ))}
-        </div>
+      ref={scrollContainerRef}
+      className="flex flex-col justify-center m-10 w-5/6 overflow-x-hidden scrollbar-hidden"
+    >
+      <div className="flex justify-start m-5 space-x-4 flex-shrink-0">
+      {categories.slice(0,10).map((category, index) => {
+        const IconComponent = iconMap[category.imgSrc];
+        return (
+          <div key={index} className="bg-white shadow-md rounded-xl p-4 text-center w-40 flex-shrink-0">
+            <IconComponent className="mx-auto h-12 mb-2 text-gray-700" />
+            <p className="text-gray-700 font-semibold">{category.title}</p>
+            <p className="text-gray-500 text-sm">{category.jobs}</p>
+          </div>
+        );
+      })}
+      </div>
+      <div className="flex justify-start ml-24 space-x-4 flex-shrink-0">
+      {categories.slice(11,20).map((category, index) => {
+        const IconComponent = iconMap[category.imgSrc];
+        return (
+          <div key={index} className="bg-white shadow-md rounded-xl p-4 text-center w-40 flex-shrink-0">
+            <IconComponent className="mx-auto h-12 mb-2 text-gray-700" />
+            <p className="text-gray-700 font-semibold">{category.title}</p>
+            <p className="text-gray-500 text-sm">{category.jobs}</p>
+          </div>
+        );
+      })}
+      </div>
+    </div>
 
         {/* Right Arrow */}
         <button
           onClick={() => scroll('right')}
           className="absolute right-0 top-1/2 m-2 transform -translate-y-1/2 bg-gray-200 rounded-full p-2 shadow-lg"
         >
-          &rarr;
+          <FaLongArrowAltRight/>
         </button>
       </div>
     </div>

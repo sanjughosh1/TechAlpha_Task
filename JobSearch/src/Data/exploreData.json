@@ -1,0 +1,489 @@
+{
+  "exploreTopCompanies": [
+    {
+      "title": "MNCs",
+      "jobs": "1.5K+ are actively hiring",
+      "companies": [
+        { "name": "Google", "logo": "https://logo.clearbit.com/google.com", "website": "https://www.google.com" },
+        { "name": "Facebook", "logo": "https://logo.clearbit.com/facebook.com", "website": "https://www.facebook.com" },
+        { "name": "Microsoft", "logo": "https://via.placeholder.com/microsoft.com", "website": "https://www.microsoft.com" },
+        { "name": "Amazon", "logo": "https://logo.clearbit.com/amazon.com", "website": "https://www.amazon.com" }
+      ]
+    },
+    {
+      "title": "Fortune 500",
+      "jobs": "82 are actively hiring",
+      "companies": [
+        { "name": "Apple", "logo": "https://logo.clearbit.com/apple.com", "website": "https://www.apple.com" },
+        { "name": "IBM", "logo": "https://logo.clearbit.com/ibm.com", "website": "https://www.ibm.com" },
+        { "name": "Walmart", "logo": "https://logo.clearbit.com/walmart.com", "website": "https://www.walmart.com" },
+        { "name": "CVS Health", "logo": "https://logo.clearbit.com/cvs.com", "website": "https://www.cvs.com" }
+      ]
+    },
+    {
+      "title": "Unicorns",
+      "jobs": "94 are actively hiring",
+      "companies": [
+        { "name": "Stripe", "logo": "https://logo.clearbit.com/stripe.com", "website": "https://www.stripe.com" },
+        { "name": "SpaceX", "logo": "https://logo.clearbit.com/spacex.com", "website": "https://www.spacex.com" },
+        { "name": "Databricks", "logo": "https://logo.clearbit.com/databricks.com", "website": "https://www.databricks.com" },
+        { "name": "Plaid", "logo": "https://logo.clearbit.com/plaid.com", "website": "https://www.plaid.com" }
+      ]
+    },
+    {
+      "title": "Startups",
+      "jobs": "292 are actively hiring",
+      "companies": [
+        { "name": "Zoom", "logo": "https://logo.clearbit.com/zoom.us", "website": "https://www.zoom.us" },
+        { "name": "Slack", "logo": "https://logo.clearbit.com/slack.com", "website": "https://www.slack.com" },
+        { "name": "Dropbox", "logo": "https://logo.clearbit.com/dropbox.com", "website": "https://www.dropbox.com" },
+        { "name": "Airbnb", "logo": "https://logo.clearbit.com/airbnb.com", "website": "https://www.airbnb.com" }
+      ]
+    },
+    {
+      "title": "Emerging Tech",
+      "jobs": "300+ are actively hiring",
+      "companies": [
+        { "name": "Nuro", "logo": "https://logo.clearbit.com/nuro.ai", "website": "https://www.nuro.ai" },
+        { "name": "UiPath", "logo": "https://logo.clearbit.com/uipath.com", "website": "https://www.uipath.com" },
+        { "name": "Snowflake", "logo": "https://logo.clearbit.com/snowflake.com", "website": "https://www.snowflake.com" },
+        { "name": "Coupang", "logo": "https://logo.clearbit.com/coupang.com", "website": "https://www.coupang.com" }
+      ]
+    },
+    {
+      "title": "Fintech",
+      "jobs": "250+ are actively hiring",
+      "companies": [
+        { "name": "Robinhood", "logo": "https://logo.clearbit.com/robinhood.com", "website": "https://www.robinhood.com" },
+        { "name": "Affirm", "logo": "https://logo.clearbit.com/affirm.com", "website": "https://www.affirm.com" },
+        { "name": "Chime", "logo": "https://logo.clearbit.com/chime.com", "website": "https://www.chime.com" },
+        { "name": "Brex", "logo": "https://logo.clearbit.com/brex.com", "website": "https://www.brex.com" }
+      ]
+    },
+    {
+      "title": "Healthtech",
+      "jobs": "180+ are actively hiring",
+      "companies": [
+        { "name": "Teladoc", "logo": "https://logo.clearbit.com/teladoc.com", "website": "https://www.teladoc.com" },
+        { "name": "Tempus", "logo": "https://logo.clearbit.com/tempus.com", "website": "https://www.tempus.com" },
+        { "name": "Zocdoc", "logo": "https://logo.clearbit.com/zocdoc.com", "website": "https://www.zocdoc.com" },
+        { "name": "Oscar Health", "logo": "https://logo.clearbit.com/oscarhealth.com", "website": "https://www.oscarhealth.com" }
+      ]
+    },
+    {
+      "title": "Edtech",
+      "jobs": "220+ are actively hiring",
+      "companies": [
+        { "name": "Coursera", "logo": "https://logo.clearbit.com/coursera.org", "website": "https://www.coursera.org" },
+        { "name": "Khan Academy", "logo": "https://logo.clearbit.com/khanacademy.org", "website": "https://www.khanacademy.org" },
+        { "name": "Duolingo", "logo": "https://logo.clearbit.com/duolingo.com", "website": "https://www.duolingo.com" },
+        { "name": "Udemy", "logo": "https://logo.clearbit.com/udemy.com", "website": "https://www.udemy.com" }
+      ]
+    },
+    {
+      "title": "E-commerce",
+      "jobs": "310+ are actively hiring",
+      "companies": [
+        { "name": "Shopify", "logo": "https://logo.clearbit.com/shopify.com", "website": "https://www.shopify.com" },
+        { "name": "Etsy", "logo": "https://logo.clearbit.com/etsy.com", "website": "https://www.etsy.com" },
+        { "name": "Wayfair", "logo": "https://logo.clearbit.com/wayfair.com", "website": "https://www.wayfair.com" },
+        { "name": "Revolut", "logo": "https://logo.clearbit.com/revolut.com", "website": "https://www.revolut.com" }
+      ]
+    },
+    {
+      "title": "AI & ML",
+      "jobs": "200+ are actively hiring",
+      "companies": [
+        { "name": "OpenAI", "logo": "https://logo.clearbit.com/openai.com", "website": "https://www.openai.com" },
+        { "name": "DeepMind", "logo": "https://logo.clearbit.com/deepmind.com", "website": "https://www.deepmind.com" },
+        { "name": "SambaNova", "logo": "https://logo.clearbit.com/sambanova.ai", "website": "https://www.sambanova.ai" },
+        { "name": "Hugging Face", "logo": "https://logo.clearbit.com/huggingface.co", "website": "https://www.huggingface.co" }
+      ]
+    },
+    {
+      "title": "Cybersecurity",
+      "jobs": "270+ are actively hiring",
+      "companies": [
+        { "name": "CrowdStrike", "logo": "https://logo.clearbit.com/crowdstrike.com", "website": "https://www.crowdstrike.com" },
+        { "name": "Palo Alto Networks", "logo": "https://logo.clearbit.com/paloaltonetworks.com", "website": "https://www.paloaltonetworks.com" },
+        { "name": "Okta", "logo": "https://logo.clearbit.com/okta.com", "website": "https://www.okta.com" },
+        { "name": "FireEye", "logo": "https://logo.clearbit.com/fireeye.com", "website": "https://www.fireeye.com" }
+      ]
+    },
+    {
+      "title": "Green Tech",
+      "jobs": "230+ are actively hiring",
+      "companies": [
+        { "name": "Tesla", "logo": "https://logo.clearbit.com/tesla.com", "website": "https://www.tesla.com" },
+        { "name": "Beyond Meat", "logo": "https://logo.clearbit.com/beyondmeat.com", "website": "https://www.beyondmeat.com" },
+        { "name": "ChargePoint", "logo": "https://logo.clearbit.com/chargepoint.com", "website": "https://www.chargepoint.com" },
+        { "name": "Enphase Energy", "logo": "https://logo.clearbit.com/enphase.com", "website": "https://www.enphase.com" }
+      ]
+    },
+    {
+      "title": "Travel Tech",
+      "jobs": "150+ are actively hiring",
+      "companies": [
+        { "name": "Expedia", "logo": "https://logo.clearbit.com/expedia.com", "website": "https://www.expedia.com" },
+        { "name": "TripAdvisor", "logo": "https://logo.clearbit.com/tripadvisor.com", "website": "https://www.tripadvisor.com" },
+        { "name": "Airbnb", "logo": "https://logo.clearbit.com/airbnb.com", "website": "https://www.airbnb.com" },
+        { "name": "Booking.com", "logo": "https://logo.clearbit.com/booking.com", "website": "https://www.booking.com" }
+      ]
+    }
+  ],
+  "featuredCompanies": [ 
+    {
+      "name": "Accolite Digital",
+      "rating": "4.0",
+      "reviews": "720 reviews",
+      "website": "https://www.accolitedigital.com",
+      "logo": "https://logo.clearbit.com/accolitedigital.com"
+    },
+    {
+      "name": "Applied Materials",
+      "rating": "4.3",
+      "reviews": "120 reviews",
+      "website": "https://www.appliedmaterials.com",
+      "logo": "https://logo.clearbit.com/appliedmaterials.com"
+    },
+    {
+      "name": "Bharti Airtel",
+      "rating": "4.1",
+      "reviews": "112 reviews",
+      "website": "https://www.airtel.in",
+      "logo": "https://logo.clearbit.com/airtel.in"
+    },
+    {
+      "name": "Tata Consultancy Services",
+      "rating": "4.2",
+      "reviews": "860 reviews",
+      "website": "https://www.tcs.com",
+      "logo": "https://logo.clearbit.com/tcs.com"
+    },
+    {
+      "name": "Infosys",
+      "rating": "4.0",
+      "reviews": "950 reviews",
+      "website": "https://www.infosys.com",
+      "logo": "https://logo.clearbit.com/infosys.com"
+    },
+    {
+      "name": "Wipro",
+      "rating": "3.9",
+      "reviews": "670 reviews",
+      "website": "https://www.wipro.com",
+      "logo": "https://logo.clearbit.com/wipro.com"
+    },
+    {
+      "name": "HCL Technologies",
+      "rating": "4.1",
+      "reviews": "740 reviews",
+      "website": "https://www.hcltech.com",
+      "logo": "https://logo.clearbit.com/hcltech.com"
+    },
+    {
+      "name": "Cognizant",
+      "rating": "4.0",
+      "reviews": "830 reviews",
+      "website": "https://www.cognizant.com",
+      "logo": "https://logo.clearbit.com/cognizant.com"
+    },
+    {
+      "name": "Capgemini",
+      "rating": "4.2",
+      "reviews": "910 reviews",
+      "website": "https://www.capgemini.com",
+      "logo": "https://logo.clearbit.com/capgemini.com"
+    },
+    {
+      "name": "Oracle",
+      "rating": "4.1",
+      "reviews": "1,050 reviews",
+      "website": "https://www.oracle.com",
+      "logo": "https://logo.clearbit.com/oracle.com"
+    },
+    {
+      "name": "SAP",
+      "rating": "4.0",
+      "reviews": "890 reviews",
+      "website": "https://www.sap.com",
+      "logo": "https://logo.clearbit.com/sap.com"
+    },
+    {
+      "name": "Salesforce",
+      "rating": "4.4",
+      "reviews": "1,200 reviews",
+      "website": "https://www.salesforce.com",
+      "logo": "https://logo.clearbit.com/salesforce.com"
+    },
+    {
+      "name": "Adobe",
+      "rating": "4.3",
+      "reviews": "1,080 reviews",
+      "website": "https://www.adobe.com",
+      "logo": "https://logo.clearbit.com/adobe.com"
+    },
+    {
+      "name": "Dell Technologies",
+      "rating": "4.2",
+      "reviews": "980 reviews",
+      "website": "https://www.dell.com",
+      "logo": "https://logo.clearbit.com/dell.com"
+    },
+    {
+      "name": "IBM",
+      "rating": "4.0",
+      "reviews": "1,150 reviews",
+      "website": "https://www.ibm.com",
+      "logo": "https://logo.clearbit.com/ibm.com"
+    },
+    {
+      "name": "Cisco Systems",
+      "rating": "4.1",
+      "reviews": "1,020 reviews",
+      "website": "https://www.cisco.com",
+      "logo": "https://logo.clearbit.com/cisco.com"
+    },
+    {
+      "name": "Intel",
+      "rating": "4.2",
+      "reviews": "1,080 reviews",
+      "website": "https://www.intel.com",
+      "logo": "https://logo.clearbit.com/intel.com"
+    },
+    {
+      "name": "VMware",
+      "rating": "4.3",
+      "reviews": "950 reviews",
+      "website": "https://www.vmware.com",
+      "logo": "https://logo.clearbit.com/vmware.com"
+    },
+    {
+      "name": "ServiceNow",
+      "rating": "4.4",
+      "reviews": "850 reviews",
+      "website": "https://www.servicenow.com",
+      "logo": "https://logo.clearbit.com/servicenow.com"
+    }
+  ],
+  "SponceredCompanies" : [
+    {
+      "name": "ITC Infotech",
+      "reviews": 959,
+      "description": "Software development and technology services firm.",
+      "logo": "https://logo.clearbit.com/itcinfotech.com"
+    },
+    {
+      "name": "Ivalua",
+      "reviews": 439,
+      "description": "Leader in material engineering solutions.",
+      "logo": "https://logo.clearbit.com/ivalua.com"
+    },
+    {
+      "name": "Highradius",
+      "reviews": 665,
+      "description": "Digital transformation service provider.",
+      "logo": "https://logo.clearbit.com/highradius.com"
+    },
+    {
+      "name": "Netapp",
+      "reviews": 797,
+      "description": "Leading the #Fintech evolution.",
+      "logo": "https://logo.clearbit.com/netapp.com"
+    },
+    {
+      "name": "Informatica",
+      "reviews": 690,
+      "description": "Enterprise cloud data management leader.",
+      "logo": "https://logo.clearbit.com/informatica.com"
+    },
+    {
+      "name": "ServiceNow",
+      "reviews": 1203,
+      "description": "Digital workflows for enterprise operations.",
+      "logo": "https://logo.clearbit.com/servicenow.com"
+    },
+    {
+      "name": "Coupa",
+      "reviews": 589,
+      "description": "Business spend management solutions.",
+      "logo": "https://logo.clearbit.com/coupa.com"
+    },
+    {
+      "name": "Snowflake",
+      "reviews": 800,
+      "description": "Cloud data platform and data warehousing.",
+      "logo": "https://logo.clearbit.com/snowflake.com"
+    },
+    {
+      "name": "Twilio",
+      "reviews": 675,
+      "description": "Cloud communications platform for customer engagement.",
+      "logo": "https://logo.clearbit.com/twilio.com"
+    },
+    {
+      "name": "Workday",
+      "reviews": 789,
+      "description": "Enterprise cloud applications for finance and HR.",
+      "logo": "https://logo.clearbit.com/workday.com"
+    },
+    {
+      "name": "Datadog",
+      "reviews": 542,
+      "description": "Monitoring and security for cloud applications.",
+      "logo": "https://logo.clearbit.com/datadoghq.com"
+    },
+    {
+      "name": "Asana",
+      "reviews": 623,
+      "description": "Work management platform for teams.",
+      "logo": "https://logo.clearbit.com/asana.com"
+    }
+    
+  ],
+  "JobList" :[
+    {
+      "title": "Ausbildung zum Tiefbaufacharbeiter / Straßenbauer (m/w/d) - letzte Chance für Beginn in 2024!",
+      "company": "BBG Bischofsheimer Baubetrieb GmbH & Co. KG",
+      "location": "Würzburg",
+      "salary": "Not Disclosed",
+      "stars": 5
+    },
+    {
+      "title": "Software Engineer - Backend (m/w/d)",
+      "company": "Tech Innovators GmbH",
+      "location": "Berlin",
+      "salary": "€60,000 - €80,000",
+      "stars": 4
+    },
+    {
+      "title": "Junior IT-Administrator (m/w/d) Apple",
+      "company": "Noerr Solutions GmbH",
+      "location": "Würzburg",
+      "salary": "Not Disclosed",
+      "stars": 4
+    },
+    {
+      "title": "Senior Project Manager (m/w/d) - Automotive",
+      "company": "AutoTech GmbH",
+      "location": "Stuttgart",
+      "salary": "€90,000 - €110,000",
+      "stars": 5
+    },
+    {
+      "title": "Sales Consultant (m/w/d) - B2B",
+      "company": "Salesforce Deutschland GmbH",
+      "location": "München",
+      "salary": "Not Disclosed",
+      "stars": 4
+    },
+    {
+      "title": "Web Developer (m/w/d) - Frontend",
+      "company": "WebWorks Solutions",
+      "location": "Hamburg",
+      "salary": "€45,000 - €55,000",
+      "stars": 3
+    },
+    {
+      "title": "Product Manager (m/w/d) - E-Commerce",
+      "company": "ShopDirect GmbH",
+      "location": "Düsseldorf",
+      "salary": "€70,000 - €90,000",
+      "stars": 5
+    },
+    {
+      "title": "Marketing Specialist (m/w/d) - Digital",
+      "company": "MarketingPro GmbH",
+      "location": "Frankfurt",
+      "salary": "Not Disclosed",
+      "stars": 4
+    },
+    {
+      "title": "Data Scientist (m/w/d) - Machine Learning",
+      "company": "DataCorp GmbH",
+      "location": "Berlin",
+      "salary": "€80,000 - €100,000",
+      "stars": 5
+    },
+    {
+      "title": "Customer Support Agent (m/w/d) - E-Commerce",
+      "company": "E-Shop GmbH",
+      "location": "Leipzig",
+      "salary": "€30,000 - €40,000",
+      "stars": 3
+    },
+    {
+      "title": "HR Business Partner (m/w/d)",
+      "company": "PeopleFirst GmbH",
+      "location": "München",
+      "salary": "Not Disclosed",
+      "stars": 4
+    },
+    {
+      "title": "Finance Analyst (m/w/d) - Investment Banking",
+      "company": "BankingPro GmbH",
+      "location": "Frankfurt",
+      "salary": "€70,000 - €85,000",
+      "stars": 5
+    },
+    {
+      "title": "Logistics Coordinator (m/w/d)",
+      "company": "LogiTrans GmbH",
+      "location": "Köln",
+      "salary": "€50,000 - €60,000",
+      "stars": 3
+    },
+    {
+      "title": "Software Tester (m/w/d) - QA",
+      "company": "QualitySoft GmbH",
+      "location": "Dortmund",
+      "salary": "Not Disclosed",
+      "stars": 4
+    },
+    {
+      "title": "UX/UI Designer (m/w/d) - Mobile Apps",
+      "company": "DesignHub GmbH",
+      "location": "Hamburg",
+      "salary": "€55,000 - €70,000",
+      "stars": 4
+    },
+    {
+      "title": "Cloud Engineer (m/w/d)",
+      "company": "CloudNet GmbH",
+      "location": "Berlin",
+      "salary": "€85,000 - €95,000",
+      "stars": 5
+    },
+    {
+      "title": "Legal Advisor (m/w/d) - Corporate Law",
+      "company": "Legal Solutions GmbH",
+      "location": "Frankfurt",
+      "salary": "Not Disclosed",
+      "stars": 4
+    },
+    {
+      "title": "Operations Manager (m/w/d) - Manufacturing",
+      "company": "MFG Solutions GmbH",
+      "location": "Stuttgart",
+      "salary": "€90,000 - €110,000",
+      "stars": 5
+    },
+    {
+      "title": "Cyber Security Analyst (m/w/d)",
+      "company": "SecureNet GmbH",
+      "location": "Berlin",
+      "salary": "€75,000 - €85,000",
+      "stars": 5
+    },
+    {
+      "title": "Business Development Manager (m/w/d) - SaaS",
+      "company": "SaaS Innovators GmbH",
+      "location": "Düsseldorf",
+      "salary": "Not Disclosed",
+      "stars": 4
+    }
+  ]
+  
+  
+}
+  

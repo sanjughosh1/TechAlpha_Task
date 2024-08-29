@@ -65,14 +65,14 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a href="#" aria-label="Google Play">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png"
+                  src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
                   alt="Google Play"
                   className="h-10"
                 />
               </a>
               <a href="#" aria-label="App Store">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/7/70/App_Store_%28iOS%29.svg"
+                  src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
                   alt="App Store"
                   className="h-10"
                 />

@@ -1,17 +1,10 @@
 import { useState } from 'react'
-import Footer from './components/footer/Footer'
-import Header from './components/header/Heade'
+import AppRouter from './Router.jsx'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-    <Header/>
-    <Footer/>
-   </>
-  )
+  return <AppRouter />; 
 }
 
 export default App

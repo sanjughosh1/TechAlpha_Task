@@ -24,6 +24,8 @@ import Photos from "./components/HotelOrderComponents/OutletComponents/PhotoComp
 import Orderonline from "./components/HotelOrderComponents/OutletComponents/AboutThisPlace.jsx";
 import Review from "./components/HotelOrderComponents/OutletComponents/ReviewCom/Review.component.jsx";
 
+import NotFound from "./components/NotFound/NotFound.jsx"
+
 const AppRouter = () => {
   return (
     <Router>
@@ -33,7 +35,7 @@ const AppRouter = () => {
 
         <Route path="/HotelOrder" element={<HotelOrder />} >
            <Route path="order-online" element={<Orderonline />} />
-         {/* <Route path="overview" element={<Overview />} />*/}
+         <Route path="overview" element={<Overview />} />
           <Route path="reviews" element={<Review />} />
           <Route path="photos" element={<Photos />} />
           <Route path="menu" element={<Menu />} />
@@ -57,6 +59,9 @@ const AppRouter = () => {
           <Route path="delivery" element={<Delivery />} />
           <Route path="dining" element={<Dining />} />
           <Route path="nightlife" element={<Nightlife />} />
+
+          {/* 404 route - this should be the last Route in the list */}
+         <Route path="*" element={<NotFound />} />
         </Route> 
       </Routes>
       
