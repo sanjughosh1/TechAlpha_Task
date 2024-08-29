@@ -37,8 +37,8 @@ const NavBar = () => {
       <div className="flex items-center space-x-8">
         <Link to="/" className="text-gray-800 hover:text-red-400">Home</Link>
         <Link to="/add-restaurant" className="text-gray-800 hover:text-red-400">Add Restaurant</Link>
-        <Link to="/OrderOnline" className="text-gray-800 hover:text-red-400">Order Online</Link>
-        <Link to="/HotelOrder" className="text-gray-800 hover:text-red-400">Hotel Order</Link>
+        <Link to="/OrderOnline/delivery" className="text-gray-800 hover:text-red-400">Order Online</Link>
+        <Link to="/HotelOrder/order-online" className="text-gray-800 hover:text-red-400">Hotel Order</Link>
       </div>
       <div className="flex items-center space-x-4">
         <div className="flex items-center bg-gray-100 rounded-full px-4 py-2 shadow-inner relative border border-gray-200">
