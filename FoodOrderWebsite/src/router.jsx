@@ -35,7 +35,7 @@ const AppRouter = () => {
 
         <Route path="/HotelOrder" element={<HotelOrder />} >
            <Route path="order-online" element={<Orderonline />} />
-         {/* <Route path="overview" element={<Overview />} /> */}
+         <Route path="overview" element={<Dining />} />
           <Route path="reviews" element={<Review />} />
           <Route path="photos" element={<Photos />} />
           <Route path="menu" element={<Menu />} />
